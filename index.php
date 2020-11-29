@@ -19,7 +19,7 @@
 
 
 
-CREATE TABLE list (
+<!-- CREATE TABLE list (
     description varchar(20),
     id int NOT NULL AUTO_INCREMENT,
     PRIMARY KEY (id)
@@ -30,4 +30,4 @@ CREATE TABLE users (
     username varchar(60) NOT NULL,
     email varchar(60) NOT NULL,
     password varchar(60) NOT NULL
-);
+); -->

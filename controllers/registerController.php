@@ -1,11 +1,11 @@
 <?php 
-    require_once __DIR__ . "/registerView.php";
-    require_once __DIR__ . "/database-wrapper.php";
+    require_once __DIR__ . "/../views/registerView.php";
+    require_once __DIR__ . "/../database-wrapper.php";
 
     if (!empty($_POST["email"]) && !empty($_POST["password"])) {
         $email = $_POST["email"];
         $password = $_POST["password"];
-        $salt = "";
+        $salt = "#/A5ax%*9)&!@%asd";
 
         $password = $password . $salt;
 

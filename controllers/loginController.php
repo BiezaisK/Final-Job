@@ -11,7 +11,7 @@
 
         if ($response) {
             if (!empty($_POST["password"])) {
-                $salt = "#/A5ax%*9)&!@%asd";
+                $salt = "";
                 $password = $_POST["password"];
 
                 $password = $password . $salt;
